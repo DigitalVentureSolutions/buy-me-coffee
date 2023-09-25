@@ -7,13 +7,16 @@ Include the JavaScript and the element. In this example, we are setting a $5 USD
 
 ```html
 <script type="module" crossorigin async src="https://cdn.jsdelivr.net/gh/DigitalVentureSolutions/buy-me-coffee/dist/buy-me-coffee.js"></script>
-<buy-me-coffee address="<Your address>" network="matic" price="5"></buy-me-coffee>
+<buy-me-coffee address="<Your address>" network="polygon-mainnet" price="5"></buy-me-coffee>
 ```
 
 ## Supported networks
 Set network to the follow value.
 
-| Network                | Value    |
-|------------------------|----------|
-| Polygon Mainnet        | matic    |
-| Polygon Mumbai Testnet | maticmum |
+| Network                  | Value           |
+|--------------------------|-----------------|
+| Polygon Mainnet          | polygon-mainnet |
+| Polygon Mumbai Testnet   | polygon-mumbai  |
+| Ethereum Mainnet         | mainnet         |
+| Ethereum Goerli Testnet  | goerli          |
+| Ethereum Sepolia Testnet | sepolia         |
